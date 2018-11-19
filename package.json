@@ -1,0 +1,14 @@
+{
+  "name": "conduit-backend",
+  "version": "1.0.0",
+  "description": "conduit-backend",
+  "author": "Jyoti Joshi",
+  "dependencies": {
+    "body-parser": "*",
+    "ejs": "*",
+    "express": "*",
+    "sqlite": "*",
+    "bluebird": "*"
+  },
+  "license": "ISC"
+}
