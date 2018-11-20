@@ -8,6 +8,7 @@ let init = function () {
         email text not null ,
         username text not null,
         bio text null,
+        token string null,
         image text null,
         password text not null,
         favorites integer DEFAULT 0 null,

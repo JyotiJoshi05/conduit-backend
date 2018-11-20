@@ -4,7 +4,7 @@ const bodyParser = require("body-parser");
 
 const database = require('./app/config/dbconfig');
 database.init();
-const port = process.argv[2] || 5000;
+const port = process.argv[2] || 1234;
 app.listen(port, function () {
      console.log("Server listening on port : " + port);
 });

@@ -4,11 +4,14 @@
   "description": "conduit-backend",
   "author": "Jyoti Joshi",
   "dependencies": {
+    "@types/jsonwebtoken": "^8.3.0",
+    "bcryptjs": "^2.4.3",
+    "bluebird": "*",
     "body-parser": "*",
     "ejs": "*",
     "express": "*",
-    "sqlite": "*",
-    "bluebird": "*"
+    "jsonwebtoken": "^8.4.0",
+    "sqlite": "*"
   },
   "license": "ISC"
 }
